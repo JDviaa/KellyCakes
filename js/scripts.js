@@ -130,14 +130,14 @@
     ---------------------*/
     $("#map").gmap3({
         marker:{     
-        address:"44 W 66th St, New York, NY", 
+        address:"Ternera, Cartagena, Colombia", 
         options:{ icon: "img/assets/marker.png"}},
         map:{
         options:{
         styles: [ {
         stylers: [ { "saturation":-90 }, { "lightness": 0 }, { "gamma": 0.0 }]},
         ],
-        zoom: 13,
+        zoom: 14,
         scrollwheel:false,
         draggable: true }
         }
@@ -146,7 +146,7 @@
     Twitter Feed
     ---------------------*/
     $('.tweet').twittie({
-        username: 'VossenDesign',
+        username: 'KellyCakesCTG',
         dateFormat: '%b. %d, %Y',
         template: '{{tweet}} <div class="date">{{date}}</div>',
         count: 2,
